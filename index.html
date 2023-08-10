@@ -11,12 +11,22 @@
     <div>
         <!--Task Input area-->
         <div>
-
+            <input type="text" id="ntask" name="ntask" placeholder=" + New task">
+            <input type="submit" value="Save">
         </div>
 
         <!--Task list-->
         <div>
-            
+            <form action="/action_page.php">
+                <input type="checkbox" id="task1" name="task1" value="task1">
+                <label for="task1"> Added task 1</label><br>
+                <input type="checkbox" id="task2" name="task2" value="task2">
+                <label for="task2"> Added task 2</label><br>
+                <input type="checkbox" id="task3" name="task3" value="task3">
+                <label for="task3"> Added task 3</label>
+                
+            </form>
+
         </div>
 
     </div>
